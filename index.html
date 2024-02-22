@@ -1,0 +1,42 @@
+<<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MAZE</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="EM-removebg-preview.png" type="image/png">
+</head>
+
+
+<body class="main-menu">
+  
+  <div class="menu-container">
+    <h1>MAZE</h1>
+    
+    <button id="play-button" class="ply-button">Start Game</button>
+    <table id="game-board"></table>
+    <div id="death-screen" class="overlay hidden">
+      <div class="overlay-content">
+        <h2
+          style="font-size: 150px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;">
+          Game Over!</h2>
+
+        <p
+          style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;">
+          Maximum Lvl reached: <span id="level">0</span></p>
+        <p
+          style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;">
+          Total steps: <span id="steps">0</span></p>
+        <p
+          style="font-size: 35px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;">
+          Your score: <span id="final-score">0</span></p>
+        <button
+          style="font-size: 25px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;"
+          id="restart-button" class="play-button">RESTART GAME</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
