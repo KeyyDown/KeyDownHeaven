@@ -1,3 +1,6 @@
+//  komentar
+
+
 const board = document.getElementById("game-board");
 
 const circle = document.createElement("div");
